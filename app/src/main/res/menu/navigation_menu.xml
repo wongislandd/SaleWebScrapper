@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/Uniqlo"
+        android:title="Uniqlo"
+        android:icon="@drawable/uniqloicon">
+    </item>
+    <item
+        android:id="@+id/HM"
+        android:title="H &amp; M"
+        android:icon="@drawable/hmicon">
+    </item>
+    <item
+        android:id="@+id/Settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings_black_24dp">
+    </item>
+</menu>

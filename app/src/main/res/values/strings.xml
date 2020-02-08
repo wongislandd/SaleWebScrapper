@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Sale Web Scrapper</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="uniqlotitle">"Uniqlo Sale Scrapper"</string>
+    <string name="hmtitle">"H&amp;M Sale Scrapper"</string>
+</resources>

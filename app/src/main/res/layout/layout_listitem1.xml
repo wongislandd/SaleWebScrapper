@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/parent_layout"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:padding="20sp">
+
+    <ImageView
+        android:id="@+id/productImageX"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        tools:srcCompat="@tools:sample/avatars[0]">
+    </ImageView>
+    <TextView
+        android:id="@+id/productNameX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@id/productImageX"
+        android:text="Poop"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/productOrigPriceX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/productNameX"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="-1dp"
+        android:layout_toRightOf="@id/productImageX"
+        android:text="Poop"
+        android:textColor="#D34545"
+        android:textSize="20sp" />
+    <TextView
+        android:id="@+id/productSalePriceX"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/productOrigPriceX"
+        android:layout_below="@id/productNameX"
+        android:text="Poop"
+        android:textColor="#000"
+        android:textSize="20sp" />
+</RelativeLayout>
